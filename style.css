@@ -1,0 +1,376 @@
+/*Banner*/
+
+.main-banner {
+  position: relative;
+}
+
+#bg-video {
+  min-width: 100%;
+  min-height: 100vh;
+  max-width: 100%;
+  max-height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+}
+
+#bg-video::-webkit-media-controls {
+  display: none !important;
+}
+
+.video-overlay {
+  position: absolute;
+  background-color: rgba(35, 45, 57, 0.8);
+  top: 0;
+  left: 0;
+  bottom: 7px;
+  width: 100%;
+}
+
+.main-banner .caption {
+  text-align: center;
+  position: absolute;
+  width: 80%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.main-banner .caption h6 {
+  margin-top: 0px;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #fff;
+  letter-spacing: 0.5px;
+}
+
+.main-banner .caption h2 {
+  margin-top: 30px;
+  margin-bottom: 25px;
+  font-size: 84px;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.main-banner .caption h2 em {
+  font-style: normal;
+  color: #ed563b;
+  font-weight: 800;
+}
+
+.main-button a {
+  display: inline-block;
+  font-size: 16px;
+  padding: 12px 20px;
+  color: #FFF;
+  background-color: #ed563b;
+  text-align: center;
+  text-decoration: none;
+}
+
+.main-button a:hover {
+  background-color: #f9735b;
+}
+
+/* Features */
+
+#features {
+  margin-bottom: 80px;
+}
+
+.feature-item {
+  display: inline-block;
+  margin-bottom: 60px;
+}
+
+.feature-item .left-icon img {
+  float: left;
+  margin-right: 30px;
+}
+
+.feature-item .right-content {
+  display: inline;
+}
+
+.feature-item .right-content h4 {
+  margin-top: 0px;
+  margin-bottom: 7px;
+  letter-spacing: 0.25px;
+  color: #232d39;
+  font-size: 19px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.feature-item .right-content a.text-button {
+  margin-top: 7px;
+  display: inline-block;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #ed563b;
+  font-weight: 500;
+
+}
+
+.text-button a {
+  text-decoration: none !important;
+}
+
+.wv {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.section-heading {
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 90px;
+}
+
+/*Member*/
+.members {
+  padding: 120px 0px;
+  background-image: url(img/cta-bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.content h2 {
+  font-size: 38px;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.content h2 em {
+  color: #ed563b;
+}
+
+.content p {
+  font-size: 18px;
+  color: #fff;
+  margin: 16px 0px 28px 0px;
+}
+
+/*Classes*/
+.class-heading em{
+  color: #ed563b;
+  font-style: normal;
+  font-weight: 700;
+
+}
+.class-heading h2{
+  font-weight: 700;
+}
+
+
+.menutab ul {
+  margin: 0;
+  padding: 0;
+}
+.menutab ul li {
+  margin-bottom: 30px;
+  display: inline-block;
+  width: 100%;
+}
+.menutab ul li:last-child {
+  margin-bottom: 0px;
+}
+.menutab ul li a {
+  text-transform: capitalize;
+  width: 100%;
+  padding: 35px 35px;
+  display: inline-block;
+  background-color: #fff;
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  font-size: 19px;
+  color: #232d39;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  transition: all 0.3s;
+  text-decoration: none;
+}
+.menutab .main-rounded-button a {
+  text-align: center;
+  padding: 20px 30px;
+  width: 100%;
+  border-radius: 5px;
+  display: inline-block;
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+  color: #ccc;
+  font-size: 22px;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  background-color: #ed563b;
+}
+.menutab .main-rounded-button a:hover {
+  background-color: #f9735b;
+}
+.icont{
+  margin-right: 30px;
+  font-size: 40px;
+}
+.tab{
+  margin-left: 20px;
+}
+.secimg{
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+.class-sec h4 {
+  text-align: left;
+  font-weight: 700;
+}
+.class-sec p {
+  color: rgb(175, 169, 169);
+  font-size: 17px;
+  
+}
+.class-sec img {
+  max-width: 100%;
+  margin-right: 20px;
+}
+.sch-btn{
+  margin-bottom: 30px;
+  background-color: #ed563b;
+  padding: 20px 15px;
+}
+.sch-btn a {
+  text-decoration: none;
+  color: #FFF;
+  font-weight: 700;
+  
+}
+.text-button{
+  text-decoration: none;
+}
+/*Expert trainers*/
+.trainers .trainer-item {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.3);
+  padding: 40px;
+}
+
+.trainers .trainer-item img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.trainers .trainer-item span {
+  font-size: 13px;
+  font-weight: 500;
+  color: #ed563b;
+  display: inline-block;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.trainers .trainer-item h4 {
+  font-size: 19px;
+  font-weight: 600;
+  color: #232d39;
+  letter-spacing: 0.5px;
+  margin-bottom: 18px;
+}
+
+.trainers .trainer-item p {
+  margin-bottom: 20px;
+}
+
+.trainers .trainer-item ul.social-icons li {
+  display: inline-block;
+  margin-right: 12px;
+}
+
+.trainers .trainer-item ul.social-icons li:last-child {
+  margin-right: 0px;
+}
+
+.trainers .trainer-item ul.social-icons li a {
+  color: #232d39;
+  transition: all .5s;
+}
+
+.trainers .trainer-item ul.social-icons li a:hover {
+  color: #ed563b;
+}
+.social-icons{
+  font-size: 20px;
+}
+/*CONTACT U S*/
+
+.contact-us {
+  margin-top: 140px;
+}
+
+.contact-us .container-fluid .col-lg-6 {
+  padding: 0px;
+}
+
+.contact-us .contact-form {
+  padding:  80px;
+  background-image: url(img/contact-bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact-us .contact-form .contact {
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  color: #ccc;
+  font-size: 13px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  width: 100%;
+  height: 40px;
+  outline: none;
+  line-height: 40px;
+  padding: 0px 10px;
+  appearance: none;
+  margin-bottom: 30px;
+}
+
+.contact-form textarea {
+  height: 150px;
+  resize: none;
+}
+
+.contact-form button {
+  display: inline-block;
+  font-size: 13px;
+  padding: 11px 17px;
+  background-color: #ed563b;
+  color: #fff;
+  text-align: center;
+  font-weight: 400;
+  text-transform: uppercase;
+  transition: all .3s;
+  border: none;
+  outline: none;
+  margin-top: -8px;
+}
+
+.contact-form button:hover {
+  background-color: #f9735b;
+}
+.contact-form{
+  background-color: #FFF !important;
+  z-index: 999;
+}
+/*footer*/
+.ft a{text-decoration: none; color: chocolate;}
+.ft a:hover {color: palevioletred;}
+.ft{ font-size: 16px;}
+.ic{color: red;}
